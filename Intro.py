@@ -18,70 +18,92 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
+ st.subheader("Mi Primera App")
+ image = Image.open('Mi_primera_app.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write("") 
+ url = "https://wt9udcox4gbjdexwnk7xek.streamlit.app/"
+ st.write(f"Mi primera App: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Uso de textblob")
+ image = Image.open('reconocimiento_emociones.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(".") 
+ url = "https://8mcuwxfcrzqdgw54y7usty.streamlit.app/"
+ st.write(f"Uso de textblob: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
+ st.subheader("Identifica la función de la flor")
+ image = Image.open('Identifica_la_función_de_la_flor.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("") 
+ url = "https://visionapp-gdrsrcspkrgqh674jpjxtw.streamlit.app/"
+ st.write(f"Identifica la función de la flor: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
+ st.subheader("Detección de Objetos en Imágenes")
+ image = Image.open('Detección_de_Objetos_en_Imágenes.png')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductor-ab0sp9f6fi.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("") 
+ url = "https://yolov5-ijocake9ej9sfaaz8kpzn9.streamlit.app/"
+ st.write(f"Detección de Objetos en Imágenes: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
+ st.subheader("INTERFACES MULTIMODALES")
+ image = Image.open('Control_Voz.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("") 
+ url = "https://ctrlvoice-dzmug9tlghbiwrekshhxje.streamlit.app/"
+ st.write(f"INTERFACES MULTIMODALES: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
+ st.subheader("Tablero para dibujo")
+ image = Image.open('Tablero_para_dibujo.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write(".") 
+ url = "https://tablero-herwgpfoxptbhpurfgt2yd.streamlit.app/"
+ st.write(f"Tablero para dibujo: [Enlace]({url})")
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
+ st.subheader("Generación Aumentada por Recuperación")
+ image = Image.open('Generación_Aumentada_por_Recuperación.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
+ st.write("") 
+ url = "https://chatpdf-3uaru8k8a3zdfobuxtzz4k.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
+ st.subheader("Reconocimiento óptico de Caracteres")
+ image = Image.open('Reconocimiento_óptico_de_Caracteres.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("") 
+ url = "https://zxvbun6rirsxo3hdpxhfyh.streamlit.app/"
+ st.write(f"Reconocimiento óptico de Caracteres: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
+ st.subheader("Demo TF-IDF en Español")
+ image = Image.open('Demo_TF-IDF_en_Español.png')
+ st.image(image, width=190)
+ st.write("") 
+ url = "https://tdfesp-p3ukwbfgwwaniwdcne67ua.streamlit.app/"
+ st.write(f"Demo TF-IDF en Español: [Enlace]({url})")
+
+with col4: 
+ st.subheader("Traductor")
+ image = Image.open('Traductor.png')
+ st.image(image, width=190)
+ st.write("") 
+ url = "https://traductor-jjpi7chz6zwqn6hfuzvnht.streamlit.app/"
+ st.write(f"Traductor: [Enlace]({url})")
+
+ st.subheader("Conversión de Texto a Audio")
+ image = Image.open('Conversión_de_Texto_a_Audio.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("") 
+ url = "https://uz4btakkmemzfv38dfgm3g.streamlit.app/"
+ st.write(f"Conversión de Texto a Audio: [Enlace]({url})")
+ 
+ st.subheader("Tablero Inteligente")
+ image = Image.open('Tablero_Inteligente.png')
+ st.image(image, width=190)
+ st.write("") 
+ url = "https://drawrecog-vyroxqycvvuay4ha28xp5t.streamlit.app/"
+ st.write(f"Tablero Inteligente: [Enlace]({url})")
 
 
