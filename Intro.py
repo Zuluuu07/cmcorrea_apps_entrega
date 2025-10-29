@@ -111,6 +111,6 @@ with col4:
  image = Image.open('Reconocimiento_de_Imágenes.png')
  st.image(image, width=190)
  st.write("Tomate una foto y sabras quien eres ;)") 
- url = "https://drawrecog-vyroxqycvvuay4ha28xp5t.streamlit.app/"
+ url = "https://yolov5-bheqgonv88hyvaaqf84tyu.streamlit.app/"
  st.write(f"Reconocimiento de Imágenes: [Enlace]({url})")
 
