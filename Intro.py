@@ -14,7 +14,7 @@ with st.sidebar:
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
  
@@ -83,6 +83,7 @@ with col3:
  st.write("") 
  url = "https://tdfesp-p3ukwbfgwwaniwdcne67ua.streamlit.app/"
  st.write(f"Demo TF-IDF en Español: [Enlace]({url})")
+
 
 with col4: 
  st.subheader("Traductor")
