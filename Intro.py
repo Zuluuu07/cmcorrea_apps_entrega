@@ -114,3 +114,10 @@ with col4:
  url = "https://yolov5-bheqgonv88hyvaaqf84tyu.streamlit.app/"
  st.write(f"Reconocimiento de Imágenes: [Enlace]({url})")
 
+ st.subheader("Demo de TF-IDF con Preguntas y Respuestas")
+ image = Image.open('Demo_de_TF-IDF_con_Preguntas.png')
+ st.image(image, width=190)
+ st.write("Pregunta lo que quieras en ingles, porque solamente entiende en ingles, entonces preparate para aprenderlo jejeje") 
+ url = "https://kdybc8qynrzhgd26w6dwmj.streamlit.app/"
+ st.write(f"Reconocimiento de Imágenes: [Enlace]({url})")
+
