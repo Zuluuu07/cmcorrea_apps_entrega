@@ -71,7 +71,7 @@ with col3:
  st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Reconocimiento óptico de Caracteres")
- image = Image.open('Reconocimiento_óptico_de_Caracteres.png')
+ image = Image.open('Reconocimiento_Óptico_de_Caracteres.png')
  st.image(image, width=200)
  st.write("") 
  url = "https://zxvbun6rirsxo3hdpxhfyh.streamlit.app/"
