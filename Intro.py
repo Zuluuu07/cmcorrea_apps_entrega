@@ -14,7 +14,7 @@ with st.sidebar:
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
  
@@ -106,6 +106,8 @@ with col4:
  st.write("Dibuja cualquier animal y te lo reconocera") 
  url = "https://drawrecog-vyroxqycvvuay4ha28xp5t.streamlit.app/"
  st.write(f"Tablero Inteligente: [Enlace]({url})")
+
+with col5:
 
  st.subheader("Reconocimiento de Imágenes")
  image = Image.open('Reconocimiento_de_Imágenes.png')
