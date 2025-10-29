@@ -78,7 +78,7 @@ with col3:
  st.write(f"Reconocimiento óptico de Caracteres: [Enlace]({url})")
  
  st.subheader("Demo TF-IDF en Español")
- image = Image.open('Demo_TF-IDF_en_Español.png')
+ image = Image.open('Demo_TF-IDF _en_Español.png')
  st.image(image, width=190)
  st.write("") 
  url = "https://tdfesp-p3ukwbfgwwaniwdcne67ua.streamlit.app/"
