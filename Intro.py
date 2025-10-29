@@ -26,7 +26,7 @@ with col1:
  st.write(f"Mi primera App: [Enlace]({url})")
 
  st.subheader("Uso de textblob")
- image = Image.open('reconocimiento_emociones.png')
+ image = Image.open('reconocimento_emociones.png')
  st.image(image, width=200)
  st.write(".") 
  url = "https://8mcuwxfcrzqdgw54y7usty.streamlit.app/"
