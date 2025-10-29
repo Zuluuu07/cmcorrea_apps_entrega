@@ -107,4 +107,10 @@ with col4:
  url = "https://drawrecog-vyroxqycvvuay4ha28xp5t.streamlit.app/"
  st.write(f"Tablero Inteligente: [Enlace]({url})")
 
+ st.subheader("Reconocimiento de Imágenes")
+ image = Image.open('Tablero_Inteligente.png')
+ st.image(image, width=190)
+ st.write("Dibuja cualquier animal y te lo reconocera") 
+ url = "https://drawrecog-vyroxqycvvuay4ha28xp5t.streamlit.app/"
+ st.write(f"Reconocimiento de Imágenes: [Enlace]({url})")
 
